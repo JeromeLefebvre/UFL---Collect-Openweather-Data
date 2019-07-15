@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "b69b2836-dd39-47bc-a7c9-f606cc385a2a",
+		"name": "OpenWeather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Forecast Weather for Tokyo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/forecast?q=Tokyo&APPID={{APPID}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Tokyo"
+						},
+						{
+							"key": "APPID",
+							"value": "{{APPID}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Current Weather for Tokyo weather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/weather?q=Tokyo&APPID={{APPID}}",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Tokyo"
+						},
+						{
+							"key": "APPID",
+							"value": "{{APPID}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
