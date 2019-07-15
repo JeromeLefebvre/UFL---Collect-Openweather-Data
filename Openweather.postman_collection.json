@@ -11,7 +11,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api.openweathermap.org/data/2.5/forecast?q=Tokyo&APPID={{APPID}}",
+					"raw": "https://api.openweathermap.org/data/2.5/forecast?id=1850147&APPID={{APPID}}&units=metric",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -25,12 +25,52 @@
 					],
 					"query": [
 						{
-							"key": "q",
-							"value": "Tokyo"
+							"key": "id",
+							"value": "1850147"
 						},
 						{
 							"key": "APPID",
 							"value": "{{APPID}}"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Forecast Weather for Tokyo in Japanese",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/forecast?id=1850147&APPID={{APPID}}&lang=ja",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1850147"
+						},
+						{
+							"key": "APPID",
+							"value": "{{APPID}}"
+						},
+						{
+							"key": "lang",
+							"value": "ja"
 						}
 					]
 				}
@@ -43,7 +83,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "api.openweathermap.org/data/2.5/weather?q=Tokyo&APPID={{APPID}}",
+					"raw": "api.openweathermap.org/data/2.5/weather?id=1850147&APPID={{APPID}}&units=metric",
 					"host": [
 						"api",
 						"openweathermap",
@@ -56,12 +96,16 @@
 					],
 					"query": [
 						{
-							"key": "q",
-							"value": "Tokyo"
+							"key": "id",
+							"value": "1850147"
 						},
 						{
 							"key": "APPID",
 							"value": "{{APPID}}"
+						},
+						{
+							"key": "units",
+							"value": "metric"
 						}
 					]
 				}
