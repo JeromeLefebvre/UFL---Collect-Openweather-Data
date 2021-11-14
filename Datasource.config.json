@@ -1,0 +1,305 @@
+{
+  "datasource": {
+    "ConfigObject": {
+      "11": {
+        "ConfigFile": {
+          "FileName": "11B.ini",
+          "InternalFileName": "2n3gzyhh.czi",
+          "Base64EncodedFile": null
+        },
+        "DataSourceType": "File",
+        "ChannelAddress": "C:\\Users\\jlefebvre.OSI\\OSIsoft, LLC\\Comware OSI - PoC向け\\UFLDataFolder\\*.csv",
+        "UserName": null,
+        "Password": {
+          "Value": null
+        },
+        "ScanTime": "1",
+        "NewLine": "",
+        "WordWrap": 0,
+        "StoreMode": "Insert",
+        "Locale": "English - United States",
+        "IncomingTimestamps": "Local",
+        "Encoding": "Extended ASCII",
+        "HttpHeaders": "",
+        "Name": "11",
+        "Description": ""
+      },
+      "Healthcare": {
+        "ConfigFile": {
+          "FileName": "weight.ini",
+          "InternalFileName": "dtyooink.go1",
+          "Base64EncodedFile": ""
+        },
+        "DataSourceType": "File",
+        "ChannelAddress": "C:\\Users\\jlefebvre.OSI\\Dropbox\\healthcare\\*.txt",
+        "UserName": null,
+        "Password": {
+          "Value": null
+        },
+        "ScanTime": "60",
+        "NewLine": "",
+        "WordWrap": 0,
+        "StoreMode": "Update",
+        "Locale": "English - United States",
+        "IncomingTimestamps": "Local",
+        "Encoding": "Extended ASCII",
+        "HttpHeaders": "",
+        "Name": "Healthcare",
+        "Description": ""
+      },
+      "12": {
+        "ConfigFile": {
+          "FileName": "12.ini",
+          "InternalFileName": "oppipg15.ypm",
+          "Base64EncodedFile": null
+        },
+        "DataSourceType": "File",
+        "ChannelAddress": "C:\\Users\\jlefebvre.OSI\\OneDrive - OSIsoft, LLC\\Customers\\Suzuki\\demo\\data\\*.csv",
+        "UserName": null,
+        "Password": {
+          "Value": null
+        },
+        "ScanTime": "1",
+        "NewLine": "",
+        "WordWrap": 0,
+        "StoreMode": "Insert",
+        "Locale": "English - United States",
+        "IncomingTimestamps": "Local",
+        "Encoding": "Extended ASCII",
+        "HttpHeaders": "",
+        "Name": "12",
+        "Description": ""
+      },
+      "Yoshida 2020-01-16": {
+        "ConfigFile": {
+          "FileName": "TestQV.ini",
+          "InternalFileName": "jejj51od.nw2",
+          "Base64EncodedFile": null
+        },
+        "DataSourceType": "File",
+        "ChannelAddress": "C:\\Users\\jlefebvre.OSI\\OneDrive - OSIsoft, LLC\\Customers\\Subaru\\data\\*",
+        "UserName": null,
+        "Password": {
+          "Value": null
+        },
+        "ScanTime": "1",
+        "NewLine": "",
+        "WordWrap": 0,
+        "StoreMode": "Insert",
+        "Locale": "English - United States",
+        "IncomingTimestamps": "Local",
+        "Encoding": "Extended ASCII",
+        "HttpHeaders": "",
+        "Name": "Yoshida 2020-01-16",
+        "Description": ""
+      },
+      "Generic": {
+        "ConfigFile": {
+          "FileName": "generic.ini",
+          "InternalFileName": "q3we0jtz.l4x",
+          "Base64EncodedFile": null
+        },
+        "DataSourceType": "File",
+        "ChannelAddress": "C:\\Users\\jlefebvre.OSI\\OneDrive - OSIsoft, LLC\\Products\\PI Connector for UFL\\GenericMatrix\\data\\*.csv",
+        "UserName": null,
+        "Password": {
+          "Value": null
+        },
+        "ScanTime": "1",
+        "NewLine": "",
+        "WordWrap": 0,
+        "StoreMode": "Insert",
+        "Locale": "English - United States",
+        "IncomingTimestamps": "Local",
+        "Encoding": "Extended ASCII",
+        "HttpHeaders": "",
+        "Name": "Generic",
+        "Description": ""
+      },
+      "Create EF": {
+        "ConfigFile": {
+          "FileName": "CreateEF.ini",
+          "InternalFileName": "qlqk52hr.htg",
+          "Base64EncodedFile": null
+        },
+        "DataSourceType": "File",
+        "ChannelAddress": "C:\\Users\\jlefebvre.OSI\\OneDrive - OSIsoft, LLC\\Products\\PI Connector for UFL\\Event Frame Creation\\data\\*.csv",
+        "UserName": null,
+        "Password": {
+          "Value": null
+        },
+        "ScanTime": "1",
+        "NewLine": "",
+        "WordWrap": 0,
+        "StoreMode": "Insert",
+        "Locale": "English - United States",
+        "IncomingTimestamps": "Local",
+        "Encoding": "Extended ASCII",
+        "HttpHeaders": "",
+        "Name": "Create EF",
+        "Description": ""
+      },
+      "UpdateValueTest": {
+        "ConfigFile": {
+          "FileName": "simple.ini",
+          "InternalFileName": "etzu2r5o.joe",
+          "Base64EncodedFile": null
+        },
+        "DataSourceType": "File",
+        "ChannelAddress": "C:\\Users\\jlefebvre.OSI\\OneDrive - OSIsoft, LLC\\Products\\PI Connector for UFL\\UFLUpdate\\data\\*",
+        "UserName": null,
+        "Password": {
+          "Value": null
+        },
+        "ScanTime": "1",
+        "NewLine": "",
+        "WordWrap": 0,
+        "StoreMode": "Insert",
+        "Locale": "English - United States",
+        "IncomingTimestamps": "Local",
+        "Encoding": "Extended ASCII",
+        "HttpHeaders": "",
+        "Name": "UpdateValueTest",
+        "Description": ""
+      },
+      "14.振動計データ": {
+        "ConfigFile": {
+          "FileName": "振動計データ.ini",
+          "InternalFileName": "l3gcof5i.wd5",
+          "Base64EncodedFile": null
+        },
+        "DataSourceType": "File",
+        "ChannelAddress": "C:\\Users\\jlefebvre.OSI\\OneDrive - OSIsoft, LLC\\Customers\\Lixil\\OSIソフト社との共有フォルダ\\OSIソフト社との共有フォルダ\\データロガー\\振動計データ\\data\\*.csv",
+        "UserName": null,
+        "Password": {
+          "Value": null
+        },
+        "ScanTime": "1",
+        "NewLine": "",
+        "WordWrap": 0,
+        "StoreMode": "Insert",
+        "Locale": "English - United States",
+        "IncomingTimestamps": "Local",
+        "Encoding": "Extended ASCII",
+        "HttpHeaders": "",
+        "Name": "14.振動計データ",
+        "Description": ""
+      },
+      "14.モータ電流値": {
+        "ConfigFile": {
+          "FileName": "モータ電流値.ini",
+          "InternalFileName": "l2adqarz.vyu",
+          "Base64EncodedFile": null
+        },
+        "DataSourceType": "File",
+        "ChannelAddress": "C:\\Users\\jlefebvre.OSI\\OneDrive - OSIsoft, LLC\\Customers\\Lixil\\OSIソフト社との共有フォルダ\\OSIソフト社との共有フォルダ\\データロガー\\モータ電流値\\data\\*",
+        "UserName": null,
+        "Password": {
+          "Value": null
+        },
+        "ScanTime": "10",
+        "NewLine": "",
+        "WordWrap": 0,
+        "StoreMode": "Insert",
+        "Locale": "English - United States",
+        "IncomingTimestamps": "Local",
+        "Encoding": "Extended ASCII",
+        "HttpHeaders": "",
+        "Name": "14.モータ電流値",
+        "Description": ""
+      },
+      "14.状態監視": {
+        "ConfigFile": {
+          "FileName": "状態監視.ini",
+          "InternalFileName": "eceyvyij.ak5",
+          "Base64EncodedFile": null
+        },
+        "DataSourceType": "File",
+        "ChannelAddress": "C:\\Users\\jlefebvre.OSI\\OneDrive - OSIsoft, LLC\\Customers\\Lixil\\OSIソフト社との共有フォルダ\\OSIソフト社との共有フォルダ\\データロガー\\状態監視\\Data\\*",
+        "UserName": null,
+        "Password": {
+          "Value": null
+        },
+        "ScanTime": "10",
+        "NewLine": "",
+        "WordWrap": 0,
+        "StoreMode": "Insert",
+        "Locale": "English - United States",
+        "IncomingTimestamps": "Local",
+        "Encoding": "Extended ASCII",
+        "HttpHeaders": "",
+        "Name": "14.状態監視",
+        "Description": ""
+      },
+      "15": {
+        "ConfigFile": {
+          "FileName": "Devices Samples.ini",
+          "InternalFileName": "gfvo5tnx.ncc",
+          "Base64EncodedFile": null
+        },
+        "DataSourceType": "REST Client",
+        "ChannelAddress": "https://47f5uyeaw8.execute-api.ap-southeast-2.amazonaws.com/prod/devices/406/samples",
+        "UserName": null,
+        "Password": {
+          "Value": null
+        },
+        "ScanTime": "3600",
+        "NewLine": "",
+        "WordWrap": 0,
+        "StoreMode": "Update",
+        "Locale": "English - United States",
+        "IncomingTimestamps": "Utc",
+        "Encoding": "Extended ASCII",
+        "HttpHeaders": "[Accept:application/json],[Authorization:be07cb3e1ebf05fbd4af463920a39a9f6dbc5d273a6e3ceb416901081dd6728db67310930f810a0df47fdeee7f5005f0aa451f62ae1b60ec74da95445d12955c]",
+        "Name": "15",
+        "Description": ""
+      },
+      "15.Devices": {
+        "ConfigFile": {
+          "FileName": "devices.ini",
+          "InternalFileName": "zy4oqvml.dnf",
+          "Base64EncodedFile": ""
+        },
+        "DataSourceType": "REST Client",
+        "ChannelAddress": "https://47f5uyeaw8.execute-api.ap-southeast-2.amazonaws.com/prod/devices/",
+        "UserName": null,
+        "Password": {
+          "Value": null
+        },
+        "ScanTime": "3600",
+        "NewLine": "",
+        "WordWrap": 0,
+        "StoreMode": "Update",
+        "Locale": "English - United States",
+        "IncomingTimestamps": "Utc",
+        "Encoding": "Extended ASCII",
+        "HttpHeaders": "[Accept:application/json],[Authorization:be07cb3e1ebf05fbd4af463920a39a9f6dbc5d273a6e3ceb416901081dd6728db67310930f810a0df47fdeee7f5005f0aa451f62ae1b60ec74da95445d12955c]",
+        "Name": "15.Devices",
+        "Description": ""
+      },
+      "OpenWeather": {
+        "ConfigFile": {
+          "FileName": "OpenWeather.ini",
+          "InternalFileName": "4nxzxrsi.lz4",
+          "Base64EncodedFile": ""
+        },
+        "DataSourceType": "REST Client",
+        "ChannelAddress": "https://api.openweathermap.org/data/2.5/weather?q=UFL_Placeholder&APPID=33ed95774fd9f0308a9135bb8dd8a2c9&units=metric|Tokyo,JP|Montreal,CA|Barcelona,ES|Vancouver,CA|New Orleans,US",
+        "UserName": null,
+        "Password": {
+          "Value": null
+        },
+        "ScanTime": "3600",
+        "NewLine": "",
+        "WordWrap": 0,
+        "StoreMode": "Insert",
+        "Locale": "English - United States",
+        "IncomingTimestamps": "Utc",
+        "Encoding": "Extended ASCII",
+        "HttpHeaders": "",
+        "Name": "OpenWeather",
+        "Description": ""
+      }
+    }
+  }
+}
